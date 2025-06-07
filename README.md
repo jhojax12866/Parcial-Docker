@@ -28,15 +28,16 @@ Simulamos un entorno empresarial completo, desplegando **8 servicios interconect
 ---
 
 ## 📁 Estructura de Proyecto
+
+```bash
 docker-compose-taller/
 ├── backend/
-│ ├── Dockerfile # Imagen personalizada de la API
-│ └── index.js # API con rutas GET y funcionalidades CRUD
+│   ├── Dockerfile        # Imagen personalizada de la API
+│   └── index.js          # API con rutas GET y funcionalidades CRUD
 ├── nginx/
-│ └── default.conf # Configuración de rutas para Nginx
-└── docker-compose.yml # Orquestación de todos los servicios
-
----
+│   └── default.conf      # Configuración de rutas para Nginx
+└── docker-compose.yml    # Orquestación de todos los servicios
+```
 
 ## 🔄 Funcionalidades Extra
 
